@@ -145,5 +145,23 @@ main {
     background: transparent;
     border-color: transparent;
     margin: 0 0.5rem;
-    
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.random-btn {
+    margin-top: 0.5rem;
+    background-color: #EBF7FF;
+    color: #49A6E9;
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: 0.25rem;
+    transition: all 0.3s linear;
+    border-color: #49A6E9;
+    cursor: pointer;
+}
+
+.random-btn:hover {
+    color: #063251;
+    background-color: #49A6E9;
 }
